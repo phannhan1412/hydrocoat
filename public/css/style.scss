@@ -70,6 +70,28 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'slick';
+  src: url('../font/slick.eot');
+  src: url('../font/slick.woff2') format('woff2'),
+  url('../font/slick.woff') format('woff'),
+  url('../font/slick.ttf') format('truetype'),
+  url('../font/slick.svg#slick') format('svg'),
+  url('../font/slick.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//test
+
+.swiper-slide.slick-slide:not(.slick-current) img.twentytwenty-before {
+  clip: rect(0px 600px 339px 0px) !important;
+}
+
+.swiper-slide.slick-slide:not(.slick-current) .twentytwenty-handle {
+  display: none;
+}
+
 .h1, .h2, .h3, h1, h2, h3 {
   margin: 0;
   text-transform: uppercase;
@@ -259,6 +281,30 @@
         padding: 10px 0;
       }
     }
+  }
+}
+
+#portfolio{
+  background: url("../images/background-aboutus.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  padding-top: 110px;
+  padding-bottom: 130px;
+  h2 {
+    font-size: 36px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #000;
+    margin-bottom: 25px;
+  }
+  .portfolio-content{
+    display: inline-block;
+    width: 730px;
+    color: #000;
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size: 14px;
   }
 }
 

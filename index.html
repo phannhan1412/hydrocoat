@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="public/css/slick.css">
     <link rel="stylesheet" href="public/css/slick-theme.css">
     <link rel="stylesheet" href="public/css/custom.css">
+    <link href="public/css/foundation.css" rel="stylesheet" type="text/css" />
+    <link href="public/css/twentytwenty.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -213,6 +215,13 @@
 
     </section>
 
+    <section id="portfolio">
+        <h2>SERVICES</h2>
+        <div class="portfolio-content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+    </section>
+
     <section id="contact">
         <h2>CONTACT US</h2>
 
@@ -250,8 +259,7 @@
                         </div>
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                            <textarea class="form-control" rows="5" id="comment"
-                                                      placeholder="Message"></textarea>
+                                            <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-6 col-xs-12">
@@ -268,8 +276,7 @@
                         </div>
                         <div class="col-md-12 col-sm-6 col-xs-12">
                             <div class="form-group">
-                                            <textarea class="form-control" rows="8" id="comment"
-                                                      placeholder="Message"></textarea>
+                                            <textarea class="form-control" rows="8" id="comment1" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <div class="col-md-12 col-sm-6 col-xs-12">
@@ -299,15 +306,19 @@
         <div id="slickSlider" class="slickSlider">
             <div class="swiper-slide" data-history="Slide 2">
                 <div class="slick-image">
-                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/2_trung_tam_dao_tao_lxat_hvn.jpg"
-                         alt="">
+                    <div class="twentytwenty-container twenty">
+                        <img src="public/images/background-header.jpg" />
+                        <img src="public/images/background-aboutus.jpg" />
+                    </div>
                 </div>
                 <div class="mask-title">Trung tâm đào tạo Lái xe an toàn Honda Việt Nam</div>
             </div>
             <div class="swiper-slide" data-history="Slide 2">
                 <div class="slick-image">
-                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/4_phong_dao_tao_ly_thuyet.jpg"
-                         alt="">
+                    <div class="twentytwenty-container twenty">
+                        <img src="public/images/background-header.jpg" />
+                        <img src="public/images/background-aboutus.jpg" />
+                    </div>
                 </div>
                 <div class="mask-title">Phòng đào tạo lý thuyết</div>
             </div>
@@ -338,21 +349,26 @@
     </div>
 </div>
 
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="public/js/jquery.min.js"></script>
 <script src="public/js/bootstrap.min.js"></script>
 <script src="public/js/app.js"></script>
 <script src="public/js/slick.min.js"></script>
+<script src="public/js/jquery.event.move.js"></script>
+<script src="public/js/jquery.twentytwenty.js"></script>
 
 <script type="text/javascript">
+    $(window).load(function() {
+        $(".twenty").twentytwenty();
+    });
     $(function () {
         $('.slickSlider').slick({
-            autoplay: true,
+            autoplay: false,
             infinite: true,
             autoplaySpeed: 2000,
             betweenSpace: 40,
-            dots: true
+            dots: true,
+            draggable: false
         });
     })
 </script>
