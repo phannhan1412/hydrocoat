@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,55 +9,352 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/font-awesome_v4.6.1.min.css">
-    <link rel="stylesheet" href="public/css/style.min.css">
+    <link rel="stylesheet" href="public/css/slick.css">
+    <link rel="stylesheet" href="public/css/slick-theme.css">
+    <link rel="stylesheet" href="public/css/custom.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-  <header>
+</head>
+<body>
+<header>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="public/images/logo.png" alt=""></a>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="public/images/logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+
+<main>
+    <section id="header">
+        <div class="header-content">
+            <h1>GRAFFITI SOLUTIONS</h1>
+            <h3>Have you considered the damage you may cause in attempting to remove your own graffiti or stains.</h3>
+            <div class="header-btn">
+                <button class="btn btn-left">ABOUT US</button>
+                <button class="btn btn-right">CONTACT US</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <h2>ABOUT US</h2>
+        <h4>GRAFFITI & STAINS REMOVAL EXPERTS</h4>
+        <div>Servicing the Illawarra Region, Wollongong and the South Coast - From Helensburgh To Sussex Inlet, Southern
+            Highlands, Wollondilly & Macarthur Regions
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
+        <ul class="about-item clearfix">
+            <li>
+                <img src="public/images/jotafloor.png" alt="footafloor">
+                <h5>We are Jotafloor certified applicators</h5>
+            </li>
+            <li>
+                <img src="public/images/everytime.png" alt="footafloor">
+                <h5>We remove graffiti first time every time</h5>
+            </li>
+            <li>
+                <img src="public/images/ownwater.png" alt="footafloor">
+                <h5>We use less water and can carry up to 350 liters of our own water</h5>
+            </li>
+            <li>
+                <img src="public/images/biodegradable.png" alt="footafloor">
+                <h5>Our chemicals are biodegradable</h5>
+            </li>
+            <li>
+                <img src="public/images/pressurecleaning.png" alt="footafloor">
+                <h5>Pressure Cleaning</h5>
+            </li>
+        </ul>
 
-    <section id="header">
-      <div class="header-content">
-      <h1>GRAFFITI SOLUTIONS</h1>
-      <h3>Have you considered the damage you may cause in attempting to remove your  own graffiti or stains.</h3>
-      <div class="header-btn">
-        <button class="btn btn-left">ABOUT US</button>
-        <button class="btn btn-right">CONTACT US</button>
-      </div>
-    </div>
     </section>
-  </header>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="public/js/jquery.min.js"></script>
-      <script src="public/js/bootstrap.min.js"></script>
-  </body>
+    <section id="services">
+        <h2>SERVICES</h2>
+        <div class="services-content">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when
+            an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+        <div class="services-img">
+            <img src="public/images/loading.png">
+        </div>
+        <div class="services-content">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
+            a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div id="myCarousel" class="carousel slide">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active">1</li>
+                        <li data-target="#myCarousel" data-slide-to="1">2</li>
+                    </ol>
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <div class="row-fluid">
+                                <div class="col-md-4">
+                                    <ul class="slider-services clearfix">
+                                        <li>
+                                            <img src="public/images/serives-one.png">
+                                            <div>Graffiti removal using world leading chemicals</div>
+                                        </li>
+                                        <li>
+                                            <img src="public/images/serives-two.png">
+                                            <div class="m-2">Anti graffiti coating</div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-4">
+
+                                    <ul class="slider-services clearfix">
+                                        <li>
+                                            <img src="public/images/serives-three.png">
+                                            <div>High pressure hard surface hot and cold water blasting</div>
+                                        </li>
+                                        <li>
+                                            <img src="public/images/serives-four.png">
+                                            <div>All Surface Preparation, cleaning and coating</div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="slider-services clearfix">
+                                        <li>
+                                            <img src="public/images/serives-five.png">
+                                            <div class="m-2">Roof Restoration</div>
+                                        </li>
+                                        <li>
+                                            <img src="public/images/serives-six.png">
+                                            <div>Paint stripping (surface preparation for rendering)</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!--/row-fluid-->
+                        </div><!--/item-->
+
+                        <div class="item">
+                            <div class="row-fluid">
+                                <div class="col-md-4">
+
+                                    <ul class="slider-services clearfix">
+                                        <li>
+                                            <img src="public/images/serives-one.png">
+                                            <div>Graffiti removal using world leading chemicals</div>
+                                        </li>
+                                        <li>
+                                            <img src="public/images/serives-two.png">
+                                            <div class="m-2">Anti graffiti coating</div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-4">
+
+                                    <ul class="slider-services clearfix">
+                                        <li>
+                                            <img src="public/images/serives-three.png">
+                                            <div>High pressure hard surface hot and cold water blasting</div>
+                                        </li>
+                                        <li>
+                                            <img src="public/images/serives-four.png">
+                                            <div>All Surface Preparation, cleaning and coating</div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="slider-services clearfix">
+                                        <li>
+                                            <img src="public/images/serives-five.png">
+                                            <div class="m-2">Roof Restoration</div>
+                                        </li>
+                                        <li>
+                                            <img src="public/images/serives-six.png">
+                                            <div>Paint stripping (surface preparation for rendering)</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!--/row-fluid-->
+                        </div><!--/item-->
+
+                    </div><!--/carousel-inner-->
+                </div><!--/myCarousel-->
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT US</h2>
+
+        <div class="contact-box clearfix">
+            <h3>CONTACT BOX</h3>
+            <span class="contact-arrow" data-toggle="collapse" href="#colapse-tab" aria-expanded="false"
+                  aria-controls="collapseExample"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+
+            <div class="contact-tab collapse" id="colapse-tab">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#email" aria-controls="email" role="tab"
+                                                              data-toggle="tab">EMAIL CONTACT</a></li>
+                    <li role="presentation"><a href="#sms" aria-controls="sms" role="tab" data-toggle="tab">SMS
+                        CONTACT</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="email">
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="text" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                            <textarea class="form-control" rows="5" id="comment"
+                                                      placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <button class="btn btn-send">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="sms">
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="number" placeholder="Your Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                            <textarea class="form-control" rows="8" id="comment"
+                                                      placeholder="Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <button class="btn btn-send">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-footer">
+            <span><strong class="text-white">Jonny Nguyen - Owner/Operator</strong></span><br>
+            <span>13 Boanyo Avenue Kiama</span><br>
+            <span>MOB- <strong class="text-white">0438 013 1232</strong></span><br>
+            <span>Email- <i class="text-white">info@hydrocoat.com.au</i></span><br>
+            <span>ABN. <strong class="text-white">50389279311</strong></span><br><br>
+            <img src="public/images/icon-instagram.png">
+            <img src="public/images/icon-facebook.png">
+        </div>
+    </section>
+</main>
+
+
+<div class="center-hidden">
+    <div class="center-mode">
+        <div id="slickSlider" class="slickSlider">
+            <div class="swiper-slide" data-history="Slide 2">
+                <div class="slick-image">
+                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/2_trung_tam_dao_tao_lxat_hvn.jpg"
+                         alt="">
+                </div>
+                <div class="mask-title">Trung tâm đào tạo Lái xe an toàn Honda Việt Nam</div>
+            </div>
+            <div class="swiper-slide" data-history="Slide 2">
+                <div class="slick-image">
+                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/4_phong_dao_tao_ly_thuyet.jpg"
+                         alt="">
+                </div>
+                <div class="mask-title">Phòng đào tạo lý thuyết</div>
+            </div>
+            <div class="swiper-slide" data-history="Slide 2">
+                <div class="slick-image">
+                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/18_may_do.jpg"
+                         alt="">
+                </div>
+                <div class="mask-title">Máy đo tốc độ hộ trợ việc đào tạo và đánh giá kĩ năng</div>
+            </div>
+            <div class="swiper-slide" data-history="Slide 2">
+                <div class="slick-image">
+                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/6_san_tap_xe_dia_hinh.jpg"
+                         alt="">
+                </div>
+                <div class="mask-title">Sân tập địa hình</div>
+            </div>
+            <div class="swiper-slide" data-history="Slide 2">
+                <div class="slick-image">
+                    <img src="https://trungtamdaotaolaixeantoan.honda.com.vn/wp-content/uploads/cache/2017/04/870x515/giang_day.jpg"
+                         alt="">
+                </div>
+                <div class="mask-title">Hệ thống máy tập lái xe giúp học viên trải nghiệm những tình huống giao thông
+                    thực tế một cách an toàn
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="public/js/jquery.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/app.js"></script>
+<script src="public/js/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+        $('.slickSlider').slick({
+            autoplay: true,
+            infinite: true,
+            autoplaySpeed: 2000,
+            betweenSpace: 40,
+            dots: true
+        });
+    })
+</script>
+</body>
 </html>
