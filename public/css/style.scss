@@ -641,6 +641,7 @@
     position: fixed;
     right: 15px;
     top: 200px;
+    z-index: 999999;
     li {
       list-style-type: none;
       top:0;

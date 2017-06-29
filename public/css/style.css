@@ -491,7 +491,8 @@
 .icon-fixed {
   position: fixed;
   right: 15px;
-  top: 200px; }
+  top: 200px;
+  z-index: 999999; }
   .icon-fixed li {
     list-style-type: none;
     top: 0;
