@@ -355,6 +355,18 @@
   font-family: 'Montserrat-Bold', sans-serif;
   color: #000; }
 
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  font-family: 'Montserrat-Light', sans-serif;
+  color: #000; }
+
+.nav-tabs > li > a:hover {
+  border-color: transparent; }
+
+.nav > li > a:focus, .nav > li > a:hover {
+  text-decoration: none;
+  background-color: transparent; }
+
 /* Removes the default 20px margin and creates some padding space for the indicators and controls */
 .carousel {
   margin-bottom: 0;
@@ -378,15 +390,16 @@
 .carousel-indicators li {
   background: #6b7177;
   text-indent: 0;
-  width: 25px;
-  height: 24px;
-  border-radius: 15px;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  font-size: 14px;
   font-family: 'Montserrat-Bold', sans-serif;
   border: 0;
-  padding-top: 2px; }
+  width: 35px;
+  height: 35px;
+  margin: 0;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%; }
 
 .carousel-indicators .active {
   width: 35px;
@@ -474,6 +487,18 @@
       text-decoration: none; }
   .slick-dots li:hover {
     background: #197cd4; }
+
+.icon-fixed {
+  position: fixed;
+  right: 15px;
+  top: 200px; }
+  .icon-fixed li {
+    list-style-type: none;
+    top: 0;
+    padding: 5px 0; }
+    .icon-fixed li .icon-img {
+      width: 35px;
+      height: auto; }
 
 @media screen and (max-width: 1280px) {
   .center-mode .slick-arrow.slick-next {
